@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/newmodule.iml" filepath="$PROJECT_DIR$/newmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/newmodule.main.iml" filepath="$PROJECT_DIR$/.idea/modules/newmodule.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/newmodule.test.iml" filepath="$PROJECT_DIR$/.idea/modules/newmodule.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/startGradle.iml" filepath="$PROJECT_DIR$/.idea/modules/startGradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/startGradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/startGradle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/startGradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/startGradle.test.iml" />
     </modules>
   </component>
 </project>
