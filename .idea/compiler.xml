@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="lab3module" target="23" />
+      <module name="lab3module.main" target="23" />
+      <module name="lab3module.test" target="23" />
+      <module name="module" target="23" />
+      <module name="module.main" target="23" />
+      <module name="module.test" target="23" />
+      <module name="newmodule" target="23" />
+      <module name="newmodule.main" target="23" />
+      <module name="newmodule.test" target="23" />
+      <module name="startGradle" target="23" />
+      <module name="startGradle.main" target="23" />
+      <module name="startGradle.test" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

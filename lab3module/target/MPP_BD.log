@@ -1,0 +1,192 @@
+11 Mar 2025 19:55:09,288 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 19:55:09,305 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 19:55:09,306 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:55:09,307 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 19:55:09,307 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 19:55:09,308 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 19:55:09,308 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 19:55:09,670 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e0ae11f)
+11 Mar 2025 19:55:09,676 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:55:09,677 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 19:55:09,677 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 19:55:09,678 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:55:09,678 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e0ae11f)
+11 Mar 2025 19:55:09,679 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:55:09,679 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 19:55:15,278 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 19:55:15,293 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 19:55:15,294 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:55:15,294 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 19:55:15,295 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 19:55:15,295 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 19:55:15,296 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 19:55:15,537 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e0ae11f)
+11 Mar 2025 19:55:15,544 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:55:15,545 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 19:55:15,545 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 19:55:15,546 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:55:15,546 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e0ae11f)
+11 Mar 2025 19:55:15,547 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:55:15,547 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 19:55:49,893 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 19:55:49,909 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 19:55:49,910 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:55:49,910 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 19:55:49,910 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 19:55:49,911 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 19:55:49,912 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 19:55:50,146 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e0ae11f)
+11 Mar 2025 19:55:50,152 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:55:50,153 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 19:55:50,153 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 19:55:50,153 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:55:50,154 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e0ae11f)
+11 Mar 2025 19:55:50,154 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:55:50,155 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 19:57:49,645 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 19:57:49,661 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 19:57:49,662 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:57:49,662 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 19:57:49,663 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 19:57:49,664 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 19:57:49,664 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 19:57:50,057 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 19:57:50,064 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:57:50,065 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 19:57:50,066 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 19:57:50,066 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:57:50,066 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 19:57:50,067 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 19:57:50,068 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 20:02:44,493 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 20:02:44,509 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:02:44,510 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:02:44,510 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:02:44,511 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 20:02:44,512 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:02:44,512 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:02:44,875 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:02:44,882 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 20:02:44,883 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 20:02:44,884 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 20:02:44,884 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:02:44,885 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:02:44,886 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 20:02:44,886 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 20:05:08,637 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 20:05:08,655 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:05:08,656 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:05:08,656 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:05:08,656 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 20:05:08,657 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:05:08,658 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:05:08,971 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:05:08,978 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 20:05:08,979 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 20:05:08,979 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 20:05:08,980 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:05:08,980 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:05:08,981 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 20:05:08,982 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 20:06:26,607 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri} 
+11 Mar 2025 20:06:26,621 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:06:26,621 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:06:26,621 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:06:26,621 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:FilesUBB an 2 sem 2DBMPPmeciuri
+11 Mar 2025 20:06:26,622 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:06:26,622 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:06:26,929 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:06:26,936 ERROR dev.rolandn.CarsDBRepository 48 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 20:06:26,938 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 20:06:26,938 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 20:06:26,939 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:06:26,939 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:06:26,940 ERROR dev.rolandn.CarsDBRepository 78 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+11 Mar 2025 20:06:26,941 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 20:07:10,653 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri} 
+11 Mar 2025 20:07:10,670 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:07:10,671 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:07:10,671 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:07:10,671 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri
+11 Mar 2025 20:07:10,673 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:07:10,673 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:07:10,999 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:07:11,014 TRACE dev.rolandn.CarsDBRepository 46 add - Saved 1 instances
+11 Mar 2025 20:07:11,015 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 20:07:11,015 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 20:07:11,016 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:07:11,016 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:07:11,023 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 20:15:45,042 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri} 
+11 Mar 2025 20:15:45,054 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:15:45,055 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:15:45,055 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:15:45,055 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri
+11 Mar 2025 20:15:45,056 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:15:45,056 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:15:45,293 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:15:45,307 TRACE dev.rolandn.CarsDBRepository 46 add - Saved 1 instances
+11 Mar 2025 20:15:45,307 TRACE dev.rolandn.CarsDBRepository 51 add - Exit
+11 Mar 2025 20:15:45,308 TRACE dev.rolandn.CarsDBRepository 62 findAll - Enter
+11 Mar 2025 20:15:45,308 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:15:45,308 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:15:45,312 TRACE dev.rolandn.CarsDBRepository 81 findAll - Exit
+11 Mar 2025 20:17:47,047 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri} 
+11 Mar 2025 20:17:47,062 TRACE dev.rolandn.CarsDBRepository 60 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:17:47,063 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:17:47,063 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:17:47,064 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri
+11 Mar 2025 20:17:47,065 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:17:47,065 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:17:47,379 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:17:47,405 TRACE dev.rolandn.CarsDBRepository 67 add - Saved 1 instances
+11 Mar 2025 20:17:47,406 TRACE dev.rolandn.CarsDBRepository 72 add - Exit
+11 Mar 2025 20:17:47,407 TRACE dev.rolandn.CarsDBRepository 83 findAll - Enter
+11 Mar 2025 20:17:47,407 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:17:47,407 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:17:47,414 TRACE dev.rolandn.CarsDBRepository 102 findAll - Exit
+11 Mar 2025 20:17:47,415 TRACE dev.rolandn.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 20:17:47,416 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:17:47,417 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:17:47,418 TRACE dev.rolandn.CarsDBRepository 48 findByManufacturer - Exit
+11 Mar 2025 20:17:54,873 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri} 
+11 Mar 2025 20:17:54,890 TRACE dev.rolandn.CarsDBRepository 60 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:17:54,891 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:17:54,891 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:17:54,892 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri
+11 Mar 2025 20:17:54,893 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:17:54,894 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:17:55,214 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:17:55,237 TRACE dev.rolandn.CarsDBRepository 67 add - Saved 1 instances
+11 Mar 2025 20:17:55,238 TRACE dev.rolandn.CarsDBRepository 72 add - Exit
+11 Mar 2025 20:17:55,239 TRACE dev.rolandn.CarsDBRepository 83 findAll - Enter
+11 Mar 2025 20:17:55,239 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:17:55,240 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:17:55,246 TRACE dev.rolandn.CarsDBRepository 102 findAll - Exit
+11 Mar 2025 20:17:55,247 TRACE dev.rolandn.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 20:17:55,248 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:17:55,249 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:17:55,250 TRACE dev.rolandn.CarsDBRepository 48 findByManufacturer - Exit
+11 Mar 2025 20:19:56,558 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri} 
+11 Mar 2025 20:19:56,573 TRACE dev.rolandn.CarsDBRepository 60 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 20:19:56,573 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:19:56,573 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 20:19:56,574 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Files/UBB an 2 sem 2/DBMPP/meciuri
+11 Mar 2025 20:19:56,575 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 20:19:56,575 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 20:19:56,856 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:19:56,875 TRACE dev.rolandn.CarsDBRepository 67 add - Saved 1 instances
+11 Mar 2025 20:19:56,875 TRACE dev.rolandn.CarsDBRepository 72 add - Exit
+11 Mar 2025 20:19:56,877 TRACE dev.rolandn.CarsDBRepository 97 findAll - Enter
+11 Mar 2025 20:19:56,878 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:19:56,879 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:19:56,887 TRACE dev.rolandn.CarsDBRepository 116 findAll - Exit
+11 Mar 2025 20:19:56,889 TRACE dev.rolandn.CarsDBRepository 28 findByManufacturer - Enter
+11 Mar 2025 20:19:56,889 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:19:56,889 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:19:56,891 TRACE dev.rolandn.CarsDBRepository 48 findByManufacturer - Exit
+11 Mar 2025 20:19:56,892 TRACE dev.rolandn.CarsDBRepository 78 update - Enter saving task Id=0 Cartof Model S 2019
+11 Mar 2025 20:19:56,892 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 20:19:56,893 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca26d77)
+11 Mar 2025 20:19:56,900 TRACE dev.rolandn.CarsDBRepository 86 update - Saved 1 instances
+11 Mar 2025 20:19:56,900 TRACE dev.rolandn.CarsDBRepository 91 update - Exit

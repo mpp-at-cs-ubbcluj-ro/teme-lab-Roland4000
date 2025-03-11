@@ -1,0 +1,9 @@
+11 Mar 2025 19:58:24,070 INFO  dev.rolandn.CarsDBRepository 20 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 19:58:24,086 TRACE dev.rolandn.CarsDBRepository 39 add - Enter saving task Id=0 Tesla Model S 2019
+11 Mar 2025 19:58:24,086 TRACE dev.rolandn.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 19:58:24,087 TRACE dev.rolandn.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 19:58:24,087 INFO  dev.rolandn.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 19:58:24,088 INFO  dev.rolandn.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 19:58:24,089 INFO  dev.rolandn.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 19:58:24,092 ERROR dev.rolandn.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 19:58:24,137 TRACE dev.rolandn.JdbcUtils 57 getConnection - Exit
