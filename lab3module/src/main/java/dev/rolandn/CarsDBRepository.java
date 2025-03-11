@@ -25,7 +25,28 @@ public class CarsDBRepository implements CarRepository{
     public List<Car> findByManufacturer(String manufacturerN) {
  	//to do
 
-        return null;
+        logger.traceEntry();
+        Connection con=dbUtils.getConnection();
+        List<Car> cars=new ArrayList<>();
+        try(PreparedStatement preStmt=con.prepareStatement("select * from Masini where manufacturer=?")){
+            preStmt.setString(1,manufacturerN);
+            try(ResultSet result=preStmt.executeQuery()){
+                while (result.next()){
+                    int id=result.getInt("id");
+                    String manufacturer= result.getString("manufacturer");
+                    String model= result.getString("model");
+                    int year= result.getInt("year");
+                    Car car = new Car(manufacturer, model, year);
+                    car.setId(id);
+                    cars.add(car);
+                }
+            }}
+        catch (SQLException e) {
+            logger.error(e);
+            System.err.println("Error DB" + e);
+        }
+        logger.traceExit();
+        return cars;
     }
 
     @Override
@@ -54,6 +75,20 @@ public class CarsDBRepository implements CarRepository{
     @Override
     public void update(Integer integer, Car elem) {
       //to do
+        logger.traceEntry("saving task {}", elem);
+        Connection con=dbUtils.getConnection();
+        try(PreparedStatement preStmt=con.prepareStatement("update Masini set manufacturer=?, model=?, year=? where id=?")) {
+            preStmt.setString(1, elem.getManufacturer());
+            preStmt.setString(2, elem.getModel());
+            preStmt.setInt(3, elem.getYear());
+            preStmt.setInt(4, integer);
+            int result = preStmt.executeUpdate();
+            logger.trace("Saved {} instances", result);
+        } catch (SQLException e) {
+            logger.error(e);
+            System.err.println("Error DB"+e);
+        }
+        logger.traceExit();
     }
 
     @Override

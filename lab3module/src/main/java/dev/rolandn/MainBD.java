@@ -23,6 +23,6 @@ public class MainBD {
         System.out.println("Masinile produse de "+manufacturer);
         for(Car car:carRepo.findByManufacturer(manufacturer))
             System.out.println(car);
-
+        carRepo.update(4,new Car("Cartof","Model S", 2019));
     }
 }
